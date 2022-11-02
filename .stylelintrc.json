@@ -20,3 +20,8 @@
   "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css"]
 }
 
+{
+  "rules": {
+    "font-family-no-missing-generic-family-keyword": true
+  }
+}

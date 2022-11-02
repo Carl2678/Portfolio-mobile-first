@@ -1,3 +1,23 @@
+
+/* scss */
+@font-face {
+  font-family: "my_original_font_family_name";
+  src: font-url("my_original_font_family_name.eot?fooooo");
+  src:
+    font-url("my_original_font_family_name.eot?fooooo#iefix") format("embedded-opentype"),
+    font-url("my_original_font_family_name.woff2?fooooo") format("woff2"),
+    font-url("my_original_font_family_name.ttf?fooooo") format("truetype"),
+    font-url("my_original_font_family_name.woff?fooooo") format("woff"),
+    font-url("my_original_font_family_name.svg?fooooo#my_original_font_family_name") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: "my_original_font_family_name" !important;
+}
+
 * {
   box-sizing: border-box;
 }

@@ -1,12 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: Setup mobile first
+# Portfolio: Setup mobil first
 
 > Description the project.
 
 **For this repository, I' created html templates and styling files in order to built a responsive portfolio mobil first of Microverse project.,for now, i create 2 section.**
 
-https://github.com/Carl2678/Portfolio-mobile-first/blob/main/images/screenshotme.png
+https://github.com/Carl2678/Portfolio-mobile-first/blob/main/images/MySreenShot.png
 
 ## Built With
 
@@ -16,7 +16,7 @@ https://github.com/Carl2678/Portfolio-mobile-first/blob/main/images/screenshotme
 
 ## Live Demo
 
-[Live Demo Link](https://github.com/Carl2678/Portfolio-mobile-first)
+[Live Demo Link](https://github.com/Carl2678/portfolio-mobile-first)
 
 
 ## Getting Started

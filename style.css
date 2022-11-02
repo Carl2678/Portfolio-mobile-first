@@ -8,6 +8,7 @@ body {
   height: 5410px;
   background: #f7f7f9;
 }
+
 #home_presentation {
   background-image: url("images/header-shapes mobile.png");
   background-repeat: no-repeat;
@@ -16,6 +17,7 @@ body {
   justify-content: center;
   height: 600px;
 }
+
 .short-presentation {
   font-family: Poppins, sans-serif;
   font-weight: 700;
@@ -106,6 +108,7 @@ h4 {
   flex-grow: 0;
   justify-content: space-between;
 }
+
 .home {
   position: relative;
   width: 1440px;

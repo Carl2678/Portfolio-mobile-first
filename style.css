@@ -494,3 +494,236 @@ h4 {
 
   color: #000000;
 }
+
+.item1 {
+  /* Card Works */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 16px;
+gap: 12px;
+
+width: 327px;
+height: 700px;
+
+/* Neutrals/N0 */
+background: #FFFFFF;
+/* Neutrals/N40 */
+border: 1px solid #DFE1E6;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.item2 {
+  /* Card Works */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 16px;
+gap: 12px;
+
+width: 327px;
+height: 700px;
+
+/* Neutrals/N0 */
+background: #FFFFFF;
+/* Neutrals/N40 */
+border: 1px solid #DFE1E6;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.item3 {
+  /* Card Works */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 16px;
+gap: 12px;
+
+width: 327px;
+height: 700px;
+
+/* Neutrals/N0 */
+background: #FFFFFF;
+/* Neutrals/N40 */
+border: 1px solid #DFE1E6;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.item4 {
+  /* Card Works */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 16px;
+gap: 12px;
+
+width: 327px;
+height: 700px;
+
+/* Neutrals/N0 */
+background: #FFFFFF;
+/* Neutrals/N40 */
+border: 1px solid #DFE1E6;
+border-radius: 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+/* config /items */
+
+#works .service--content h1 {
+
+width: 295px;
+height: 36px;
+
+font-family: Poppins, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+/* or 138% */
+
+/* Neutrals/N800 */
+color: #172B4D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+#works .service--content .item1 .item2 .item3 .item4 {
+  -ms-flex-preferred-size: 32%;
+      flex-basis: 32%;
+  text-align: center;
+  border: 1px solid #E9EBEC;
+  padding: 20px 10px 40px;
+  margin-bottom: 30px;
+  -webkit-transition: background-color 0.8s ease-in;
+  transition: background-color 0.8s ease-in;
+}
+
+@media screen and (min-width: 768px) {
+  #works .service--content .item1 .item2 .item3 .item4 {
+    margin-bottom: 0;
+  }
+}
+
+#works .service--content .item1 .item2 .item3 .item4 h1 {
+
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  /* or 138% */
+
+  /* Neutrals/N800 */
+  color: #172B4D;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#works .service--content .item1 .item2 .item3 .item4 img {
+  width: 295px;
+  height: 220px;
+
+  background: url(blog_drbl_4x.png);
+  border-radius: 8px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+background: url(blog_drbl_4x.png);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#works .service--content .item1 .item2 .item3 .item4 p {
+  /* Primary Text */
+
+/* Body / 3 */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+/* or 160% */
+
+/* Neutrals/N600 */
+color: #344563;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#works .service--content .item1 .item2 .item3 .item4 a {
+  /* Button /Normal */
+  text-decoration: none;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #396df2;
+    border: 1px solid #396df2;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 0;
+    align-self: baseline;
+}
+
+#works .item1:hover {
+  background-color: #DEF0FF;
+}
+
+/* config /item2 */

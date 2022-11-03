@@ -6,7 +6,7 @@
 
 **For this repository, I' created html templates and styling files in order to built a responsive portfolio mobil first of Microverse project.,for now, i create 2 section.**
 
-https://github.com/Carl2678/Portfolio-mobile-first/blob/main/images/MySreenShot.png
+![alt text](https://github.com/Carl2678/Portfolio-mobile-first/blob/main/images/MySreenShot.png)
 
 ## Built With
 

@@ -265,7 +265,6 @@ h4 {
 
 #programmes {
   display: flex;
-  flex-direction: none;
   padding-left: 0;
   justify-content: space-between;
   margin-right: 24px;
@@ -273,7 +272,6 @@ h4 {
 
 #skills-cards {
   display: flex;
-  flex-direction: none;
   padding-left: 0;
   justify-content: space-between;
   margin-right: 24px;
@@ -281,7 +279,7 @@ h4 {
 
 .frameworks-skills {
   display: flex;
-  flex-direction: none;
+
   padding-left: 0;
   justify-content: space-between;
   margin-right: 24px;
@@ -370,20 +368,13 @@ h4 {
 }
 
 .frameworks-skills .pro p {
-  font-family: Poppins, sans-serif !important;
-  font-style: normal !important;
-  font-weight: 500 !important;
-  font-size: 15px !important;
-  line-height: 20px !important;
-  color: #253858 !important;
-  margin-left: 15px !important;
+  font-family: Poppins, sans-serif;
 }
 
 #about_me {
   display: grid;
   grid-template-columns: 40% 60%;
   margin: 0 8% 10%;
-  grid-column-gap: 5%;
 }
 
 .data-inf {
@@ -508,7 +499,7 @@ h4 {
   gap: 12px;
 
   width: 327px;
-  height: 700px;
+  height: 750px;
 
   /* Neutrals/N0 */
   background: #ffffff;
@@ -535,7 +526,7 @@ h4 {
   gap: 12px;
 
   width: 327px;
-  height: 700px;
+  height: 750px;
 
   /* Neutrals/N0 */
   background: #ffffff;
@@ -562,7 +553,7 @@ h4 {
   gap: 12px;
 
   width: 327px;
-  height: 700px;
+  height: 750px;
 
   /* Neutrals/N0 */
   background: #ffffff;
@@ -589,7 +580,7 @@ h4 {
   gap: 12px;
 
   width: 327px;
-  height: 700px;
+  height: 750px;
 
   /* Neutrals/N0 */
   background: #ffffff;
@@ -635,12 +626,6 @@ h4 {
   transition: background-color 0.8s ease-in;
 }
 
-@media screen and (min-width: 768px) {
-  #works .service--content .item1 {
-    margin-bottom: 0;
-  }
-}
-
 #works .service--content .item1 h1 {
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -669,21 +654,13 @@ h4 {
   flex: none;
   order: 0;
   flex-grow: 0;
-
-  background: url(blog_drbl_4x.png);
-  border-radius: 8px;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 #works .service--content .item1 p {
   /* Primary Text */
 
   /* Body / 3 */
-  font-family: "Poppins";
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -752,12 +729,6 @@ h4 {
   transition: background-color 0.8s ease-in;
 }
 
-@media screen and (min-width: 768px) {
-  #works .service--content .item1 {
-    margin-bottom: 0;
-  }
-}
-
 #works .service--content .item2 h1 {
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -778,17 +749,6 @@ h4 {
 #works .service--content .item2 img {
   width: 295px;
   height: 220px;
-
-  background: url(blog_drbl_4x.png);
-  border-radius: 8px;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-
-  background: url(blog_drbl_4x.png);
-  border-radius: 8px;
 
   /* Inside auto layout */
   flex: none;
@@ -896,17 +856,6 @@ h4 {
   width: 295px;
   height: 220px;
 
-  background: url(blog_drbl_4x.png);
-  border-radius: 8px;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-
-  background: url(blog_drbl_4x.png);
-  border-radius: 8px;
-
   /* Inside auto layout */
   flex: none;
   order: 0;
@@ -986,85 +935,69 @@ h4 {
   transition: background-color 0.8s ease-in;
 }
 
-@media screen and (min-width: 768px) {
-  #works .service--content .item1 {
-    margin-bottom: 0;
-  }
+#works .service--content .item4 h1 {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  /* or 138% */
 
-  #works .service--content .item4 h1 {
-    font-family: Poppins, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 44px;
-    /* or 138% */
+  /* Neutrals/N800 */
+  color: #172b4d;
 
-    /* Neutrals/N800 */
-    color: #172b4d;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
 
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-  }
+#works .service--content .item4 img {
+  width: 295px;
+  height: 220px;
 
-  #works .service--content .item4 img {
-    width: 295px;
-    height: 220px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
 
-    background: url(blog_drbl_4x.png);
-    border-radius: 8px;
+#works .service--content .item4 p {
+  /* Primary Text */
 
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+  /* Body / 3 */
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  /* or 160% */
 
-    background: url(blog_drbl_4x.png);
-    border-radius: 8px;
+  /* Neutrals/N600 */
+  color: #344563;
 
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-  }
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
 
-  #works .service--content .item4 p {
-    /* Primary Text */
+#works .service--content .item4 a {
+  /* Button /Normal */
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  border: 1px solid #396df2;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 0;
+  align-self: baseline;
+}
 
-    /* Body / 3 */
-    font-family: Poppins, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
-    /* or 160% */
-
-    /* Neutrals/N600 */
-    color: #344563;
-
-    /* Inside auto layout */
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-  }
-
-  #works .service--content .item4 a {
-    /* Button /Normal */
-    text-decoration: none;
-    font-family: Poppins, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    color: #396df2;
-    border: 1px solid #396df2;
-    border-radius: 5px;
-    text-align: center;
-    padding: 10px 0;
-    align-self: baseline;
-  }
-  #works .item1:hover {
-    background-color: #def0ff;
-  }
+#works .item1:hover {
+  background-color: #def0ff;
 }

@@ -144,13 +144,21 @@ flex : none;
 order : 1;
 flex-grow : 0;
 }
+<<<<<<< HEAD
 #about_myself {
+=======
+#about_me {
+>>>>>>> 536964d7b62526031de3d62455a661838230839d
 margin : 0;
 display : flex;
 flex-direction : column;
 background-color : #fff;
 }
+<<<<<<< HEAD
 #about_myself h1 {
+=======
+#about_me h1 {
+>>>>>>> 536964d7b62526031de3d62455a661838230839d
 font-family : Poppins, sans-serif;
 font-style : normal;
 font-weight : bold;
@@ -209,7 +217,11 @@ display : flex;
 flex-direction : column;
 }
 .data-inf {
+<<<<<<< HEAD
 margin-left : 20px;
+=======
+margin-left : 24px;
+>>>>>>> 536964d7b62526031de3d62455a661838230839d
 margin-top : 114px;
 margin-right : 12px;
 }
@@ -311,6 +323,24 @@ line-height : 20px;
 color : #253858;
 margin-left : 15px;
 }
+<<<<<<< HEAD
+=======
+.frameworks-skills .pro p {
+font-family : Poppins, sans-serif;
+}
+#about_me {
+display : grid;
+grid-template-columns : 40% 60%;
+margin : 0 8% 10%;
+}
+.data-inf {
+grid-column : 1 / span 1;
+margin-right : 0;
+}
+.data-inf h1 {
+margin-bottom : 0;
+}
+>>>>>>> 536964d7b62526031de3d62455a661838230839d
 #profile_link h2 {
 margin-bottom : 0;
 }
@@ -350,6 +380,13 @@ margin-top : 0;
 }
 #frameworks {
 justify-content : space-between;
+<<<<<<< HEAD
+=======
+}
+#l1 hr {
+background : #dfe1e6;
+height : 1px;
+>>>>>>> 536964d7b62526031de3d62455a661838230839d
 }
 #sk {
 justify-content : space-between;
@@ -397,7 +434,11 @@ flex-direction : column;
 align-items : center;
 padding : 16px;
 gap : 12px;
+<<<<<<< HEAD
 width : 360px;
+=======
+width : 327px;
+>>>>>>> 536964d7b62526031de3d62455a661838230839d
 height : 750px;
 background : #ffffff;
 border : #dfe1e6 solid 1px;
@@ -413,7 +454,11 @@ flex-direction : column;
 align-items : center;
 padding : 16px;
 gap : 12px;
+<<<<<<< HEAD
 width : 360px;
+=======
+width : 327px;
+>>>>>>> 536964d7b62526031de3d62455a661838230839d
 height : 750px;
 background : #ffffff;
 border : #dfe1e6 solid 1px;
@@ -429,7 +474,11 @@ flex-direction : column;
 align-items : center;
 padding : 16px;
 gap : 12px;
+<<<<<<< HEAD
 width : 360px;
+=======
+width : 327px;
+>>>>>>> 536964d7b62526031de3d62455a661838230839d
 height : 750px;
 background : #ffffff;
 border : #dfe1e6 solid 1px;
@@ -445,7 +494,11 @@ flex-direction : column;
 align-items : center;
 padding : 16px;
 gap : 12px;
+<<<<<<< HEAD
 width : 360px;
+=======
+width : 327px;
+>>>>>>> 536964d7b62526031de3d62455a661838230839d
 height : 750px;
 background : #ffffff;
 border : #dfe1e6 solid 1px;
@@ -536,6 +589,28 @@ flex : none;
 order : 0;
 flex-grow : 0;
 }
+<<<<<<< HEAD
+=======
+#works .service--content .item2 {
+flex-basis : 32%;
+text-align : center;
+border : #e9ebec solid 1px;
+padding : 20px 10px 40px;
+margin-bottom : 30px;
+transition : background-color 0.8s ease-in;
+}
+#works .service--content .item2 h1 {
+font-family : Poppins, sans-serif;
+font-style : normal;
+font-weight : 700;
+font-size : 32px;
+line-height : 44px;
+color : #172b4d;
+flex : none;
+order : 0;
+flex-grow : 0;
+}
+>>>>>>> 536964d7b62526031de3d62455a661838230839d
 #works .service--content .item2 img {
 width : 295px;
 height : 220px;
@@ -554,9 +629,42 @@ flex : none;
 order : 1;
 flex-grow : 0;
 }
+<<<<<<< HEAD
 #works .item1:hover {
 background-color : #def0ff;
 }
+=======
+#works .service--content .item2 a {
+text-decoration : none;
+font-family : Poppins, sans-serif;
+font-style : normal;
+font-weight : 500;
+font-size : 17px;
+line-height : 24px;
+color : #396df2;
+border : #396df2 solid 1px;
+border-radius : 5px;
+text-align : center;
+padding : 10px 0;
+align-self : baseline;
+}
+#works .item1:hover {
+background-color : #def0ff;
+}
+#works .service--content h1 {
+width : 295px;
+height : 36px;
+font-family : Poppins, sans-serif;
+font-style : normal;
+font-weight : 700;
+font-size : 32px;
+line-height : 44px;
+color : #172b4d;
+flex : none;
+order : 0;
+flex-grow : 0;
+}
+>>>>>>> 536964d7b62526031de3d62455a661838230839d
 #works .service--content .item3 {
 flex-basis : 32%;
 text-align : center;
@@ -568,7 +676,23 @@ transition : background-color 0.8s ease-in;
 @media screen and (min-width: 768px) {
 #works .service--content .item1 {
 margin-bottom : 0;
+<<<<<<< HEAD
 }
+=======
+}
+}
+#works .service--content .item3 h1 {
+font-family : Poppins, sans-serif;
+font-style : normal;
+font-weight : 700;
+font-size : 32px;
+line-height : 44px;
+color : #172b4d;
+flex : none;
+order : 0;
+flex-grow : 0;
+}
+>>>>>>> 536964d7b62526031de3d62455a661838230839d
 #works .service--content .item1 img {
 width : 295px;
 height : 220px;
